@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background-color: lightcoral;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Poppings', sans-serif;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+#sim{
+    height: 40px;
+    width: 60px;
+    background-color:red;
+    border-radius: 10px;
+    margin-left: -70px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+#sim:hover{
+    background-color:lightpink;
+}
+
+
+#nao{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+#nao:hover{
+    background-color:lightpink;
+}
+
+#img{
+    height: 300px;
+    width: 400px;
+    margin-top: 12px;
+}
